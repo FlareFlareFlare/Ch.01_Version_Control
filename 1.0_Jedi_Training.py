@@ -1,21 +1,20 @@
 '''
-Sign your name:________________
+Sign your name: Matthew Flyr
 
 
+Define Forking: Making a copy
 
-Define Forking: 
+Define Cloning: full copy of a data file
 
-Define Cloning: 
+Define Branching: Making different versions
 
-Define Branching:
+Define Committing: Making a saved change
 
-Define Committing: 
+Define Merging: When you combine branches
 
-Define Merging: 
+Define Pushing: exporting a file to another place.
 
-Define Pushing:
-
-Define Pull Request:
+Define Pull Request: Asking to put the copied code back to the orginal code
 
 
 '''
