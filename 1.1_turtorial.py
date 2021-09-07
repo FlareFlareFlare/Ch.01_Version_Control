@@ -8,28 +8,110 @@ Turtle Documentation: https://docs.python.org/3.3/library/turtle.html?highlight=
 
 '''
 import turtle
-yoda=turtle.Turtle()
-screen=turtle.Screen() # makes a screen object
-screen.bgcolor('black') # colors the screen
-yoda.pensize(3) # width of pen line
-yoda.speed(10)  # speed of drawing. Go fast to not waste time.
-yoda.color("#00FF00")
-yoda.circle(100)  #head
-yoda.penup()
-yoda.setpos(50,185) #right ear
-yoda.pendown()
-yoda.goto(200,210)
-yoda.goto(88,145)
-yoda.penup()
-yoda.setpos(-50,185)  #left ear
-yoda.pendown()
-yoda.goto(-200,210)
-yoda.goto(-88,145)
-yoda.penup()
-yoda.setpos(200,-300)
-yoda.pendown()
-yoda.pencolor('#00FF00')
+jeffery=turtle.Turtle()
+x = 70
+jeffery.begin_fill()
+"This is for the 2"
+jeffery.penup()
+jeffery.speed(0)
+jeffery.pensize(10)
+jeffery.goto(-200, 60)
+jeffery.pendown()
+jeffery.color("#BCFF00")
+jeffery.left(x)
+jeffery.forward(75)
+jeffery.right(30)
+for i in range(38):
+    jeffery.right(2)
+    jeffery.forward(5)
+for i in range(35):
+    jeffery.right(2)
+    jeffery.forward(2)
+print("cool debugging")
+jeffery.forward(60)
+for i in range(7):
+    jeffery.right(7)
+    jeffery.forward(8)
+jeffery.forward(120)
+for i in range(7):
+    jeffery.right(-9)
+    jeffery.forward(3)
+jeffery.left(90)
+jeffery.forward(25)
+for i in range(35):
+    jeffery.right(-2)
+    jeffery.forward(.4)
+jeffery.forward(15)
+jeffery.right(x)
+jeffery.forward(110)
+jeffery.right(110)
+jeffery.forward(100)
+jeffery.right(x)
+jeffery.forward(235)
+jeffery.right(110)
+jeffery.forward(100)
+for i in range(30):
+    jeffery.right(1.85)
+    jeffery.forward(4)
+for i in range(20):
+    jeffery.left(2)
+    jeffery.forward(4)
+for i in range(20):
+    jeffery.left(9)
+    jeffery.forward(4)
+jeffery.forward(15)
+jeffery.right(50)
+jeffery.forward(x)
+jeffery.end_fill()
+"This is now the 4"
+jeffery.penup()
+jeffery.color("#BCFF00")
+jeffery.goto (20,-20)
+jeffery.pendown()
+jeffery.begin_fill()
+jeffery.right(120)
+jeffery.forward(180)
+jeffery.right(60)
+jeffery.forward(100)
+jeffery.right(100)
+jeffery.forward(180)
+jeffery.left(90)
+jeffery.forward(50)
+jeffery.right(90)
+jeffery.forward(x)
+jeffery.right(90)
+jeffery.forward(50)
+jeffery.left(90)
+jeffery.forward(90)
+jeffery.right(90)
+jeffery.forward(90)
+jeffery.right(90)
+jeffery.forward(x)
+jeffery.left(90)
+jeffery.forward(x)
+jeffery.right(90)
+jeffery.forward(80)
+jeffery.end_fill()
+jeffery.penup()
+jeffery.color('black')
+jeffery.goto(100, 20)
+jeffery.pendown()
+for i in range(3):
+    jeffery.right(120)
+    jeffery.forward(50)
+jeffery.penup()
+jeffery.goto(105,10)
+jeffery.pendown()
+jeffery.color('white')
+jeffery.begin_fill()
+for i in range(3):
+    jeffery.right(120)
+    jeffery.forward(30)
+jeffery.end_fill()
 
-
-yoda.write('Matthew Flyr',font=("Arial", 16, "normal")) # signs your name to your art
+jeffery.color('black')
+jeffery.penup()
+jeffery.goto(180,180)
+jeffery.pendown()
+jeffery.write("Matthew Flyr", font=("Comic Sans MS", 23, "italic"))
 turtle.exitonclick() #Keeps pycharm window open so we can see the drawing
