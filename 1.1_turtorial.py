@@ -11,9 +11,9 @@ import turtle
 jeffery=turtle.Turtle()
 x = 70
 jeffery.begin_fill()
-"This is for the 2"
+# This is for the 2
 jeffery.penup()
-jeffery.speed(0)
+jeffery.speed(10)
 jeffery.pensize(10)
 jeffery.goto(-200, 60)
 jeffery.pendown()
@@ -93,20 +93,28 @@ jeffery.right(90)
 jeffery.forward(80)
 jeffery.end_fill()
 jeffery.penup()
-jeffery.color('black')
+'''jeffery.color('black')
 jeffery.goto(100, 20)
 jeffery.pendown()
 for i in range(3):
     jeffery.right(120)
     jeffery.forward(50)
+    '''
 jeffery.penup()
 jeffery.goto(105,10)
 jeffery.pendown()
 jeffery.color('white')
 jeffery.begin_fill()
-for i in range(3):
+jeffery.right(35)
+jeffery.forward(35)
+jeffery.right(135)
+jeffery.forward(30)
+jeffery.right(45)
+jeffery.forward(30)
+'''for i in range(3):
     jeffery.right(120)
     jeffery.forward(30)
+'''
 jeffery.end_fill()
 
 jeffery.color('black')
